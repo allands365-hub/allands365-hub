@@ -57,4 +57,4 @@ I use Claude, Cursor, and AI tools daily — not just for coding, but for explor
 
 ---
 
-*Currently open to Design Engineer roles.*
+
