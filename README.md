@@ -41,7 +41,7 @@ I use Claude, Cursor, and AI tools daily — not just for coding, but for explor
 
 | Project | What it does | Tech |
 |---------|--------------|------|
-| [**Classly**](https://25-hackathon.vercel.app) | Hackathon platform for sponsors and builders | Next.js, Supabase, Groq |
+| [**BuildAi Arena**](https://25-hackathon.vercel.app) | Hackathon platform for sponsors and builders | Next.js, Supabase, Groq |
 | [**OSS Warden**](https://github.com/allands365-hub/HF_hackathon) | AI-powered GitHub issue triage | CrewAI, MCP, Modal |
 | [**Agent Marketplace**](https://github.com/allands365-hub/Agent_marketplace) | Discover and connect with AI agents | Next.js, Supabase |
 | [**Coachsync**](#) | Multi-tenant coaching institute platform | Next.js, Bun, pgvector |
