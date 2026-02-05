@@ -1,6 +1,6 @@
 # Hey, I'm Allan D'Souza
 
-**Design Engineer** based in Mumbai.
+**Full Stack Engineer** based in Mumbai.
 
 I build interfaces that feel right — prototyping in code because that's where ideas come alive.
 
