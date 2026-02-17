@@ -16,7 +16,7 @@ I build interfaces that feel right — prototyping in code because that's where 
 
 ## Background
 
-5+ years as a **Game Designer** at Apar Games — designing gameplay mechanics, feedback loops, and experiences that kept users engaged. Shipped 10+ titles across Steam, iOS, Android, and web.
+7+ years as a **Game Designer** at Apar Games — designing gameplay mechanics, feedback loops, and experiences that kept users engaged. Shipped 10+ titles across Steam, iOS, Android, and web.
 
 Now applying that same attention to detail to web interfaces.
 
