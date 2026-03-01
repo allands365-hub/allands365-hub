@@ -27,6 +27,7 @@ Now applying that same attention to detail to web interfaces.
 ```
 React · TypeScript · Next.js · Tailwind CSS · Framer Motion
 Supabase · PostgreSQL · REST APIs · Vercel
+Electron · SQLite · Groq AI · Playwright
 ```
 
 ---
@@ -41,6 +42,7 @@ I use Claude, Cursor, and AI tools daily — not just for coding, but for explor
 
 | Project | What it does | Tech |
 |---------|--------------|------|
+| [**NoteSync**](https://github.com/allands365-hub/notesync) | Auto-detect meetings, record, transcribe & summarize with AI. Search across all your past meetings. | Electron, Groq Whisper/LLaMA, SQLite FTS5 |
 | [**BuildAi Arena**](https://25-hackathon.vercel.app) | Hackathon platform for sponsors and builders | Next.js, Supabase, Groq |
 | [**OSS Warden**](https://github.com/allands365-hub/HF_hackathon) | AI-powered GitHub issue triage | CrewAI, MCP, Modal |
 | [**Agent Marketplace**](https://github.com/allands365-hub/Agent_marketplace) | Discover and connect with AI agents | Next.js, Supabase |
@@ -56,5 +58,3 @@ I use Claude, Cursor, and AI tools daily — not just for coding, but for explor
 - **Location:** Mumbai, India
 
 ---
-
-
