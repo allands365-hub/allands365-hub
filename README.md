@@ -37,7 +37,7 @@ I use Claude, Cursor, and AI tools daily — not just for coding, but for explor
 | Project | What it does | Tech |
 |---------|--------------|------|
 | [**BuildAi Arena**](https://25-hackathon.vercel.app) | Hackathon platform for sponsors and builders | Next.js, Supabase, Groq |
-| [**Bill Karo**](https://github.com/allands365-hub/billkaro) | GST-compliant invoicing for Indian MSMEs — WhatsApp reminders, mobile-first | React Native, Fastify, Neon, Drizzle |
+| **Bill Karo** | GST-compliant invoicing for Indian MSMEs — WhatsApp reminders, mobile-first | React Native, Fastify, Neon, Drizzle |
 | [**NoteSync**](https://github.com/allands365-hub/notesync) | Auto-detect meetings, record, transcribe & summarize with AI — search across all past meetings | Electron, Groq Whisper/LLaMA, SQLite FTS5 |
 | [**AI-Newz**](https://github.com/allands365-hub/AI-Newz) | AI newsletter generator — RSS to summarized email | React, FastAPI, Groq |
 | **OSS Warden** | AI-powered GitHub issue triage in ~10s | CrewAI, MCP, Modal |
