@@ -36,6 +36,7 @@ I use Claude, Cursor, and AI tools daily — not just for coding, but for explor
 
 | Project | What it does | Tech |
 |---------|--------------|------|
+| [**KSP Crime Intelligence**](https://github.com/allands365-hub/ksp-crime-intelligence) | Crime intelligence platform for Karnataka State Police Datathon 2026 — geospatial hotspot detection, offender network analysis, forecasting & anomaly detection, and a tool-calling NL Ask-AI agent running fully on Zoho Catalyst | Next.js, deck.gl, ECharts, FastAPI, scikit-learn, Zoho Catalyst (QuickML LLM) |
 | [**BuildAi Arena**](https://25-hackathon.vercel.app) | Hackathon platform for sponsors and builders | Next.js, Supabase, Groq |
 | **Bill Karo** | GST-compliant invoicing for Indian MSMEs — WhatsApp reminders, mobile-first | React Native, Fastify, Neon, Drizzle |
 | [**NoteSync**](https://github.com/allands365-hub/notesync) | Auto-detect meetings, record, transcribe & summarize with AI — search across all past meetings | Electron, Groq Whisper/LLaMA, SQLite FTS5 |
