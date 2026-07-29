@@ -1,0 +1,11 @@
+# This repo is PUBLIC — it renders as the GitHub profile README.
+# CV/application material lives here for convenience but must never be committed:
+# it contains a personal phone number and role-specific targeting.
+
+*.docx
+*.pdf
+Allan_DSouza_CV*.md
+Allan_Dsouza_CV*.md
+generate_cv*.py
+zenspace/
+applications/
