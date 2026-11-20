@@ -4,8 +4,12 @@
 
 *.docx
 *.pdf
+*.pptx
 Allan_DSouza_CV*.md
 Allan_Dsouza_CV*.md
 generate_cv*.py
+generate_deck*.py
 zenspace/
+zenspace_projects/
 applications/
+360labs/

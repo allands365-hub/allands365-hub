@@ -1,10 +1,11 @@
 # Hey, I'm Allan D'Souza
 
-**AI Engineer** based in Mumbai — agentic systems, retrieval, and memory.
+**AI-native Full-stack Engineer & Engineering Lead** based in Mumbai — agents, retrieval, and LLM infrastructure.
 
-I build agents that run real workflows: multi-step orchestration with human approval gates,
-knowledge and memory layers agents can actually rely on, and the boring-but-essential parts —
-evals, budgets, fallbacks — that make them safe to point at a business.
+I build production LLM systems where the model loop is the product, and I lead the team that ships
+them. Agents that run real workflows with human approval gates, retrieval that respects permissions,
+and the boring-but-essential parts — evals, budgets, fallbacks, contracts that can't drift — that
+make them safe to point at a business.
 
 ---
 
@@ -26,10 +27,12 @@ evals, budgets, fallbacks — that make them safe to point at a business.
 
 ```
 Agents      multi-step workflows · tool calling · HITL approval · MCP · evals · model routing
-Retrieval   embeddings (Voyage AI · FastEmbed) · pgvector · ChromaDB · reranking · Cognee/Kuzu
-Backend     Python/FastAPI · Java 17/Spring Boot · TypeScript/Node · Postgres · SQL Server · Convex
-Frontend    React 19 · Next.js 16 · TypeScript · Tailwind · Bun · React Native · Electron
-Infra       Vercel · Railway · Cloudflare · Blaxel · Docker · GitHub Actions · Grafana/Prometheus/Loki
+Retrieval   embeddings (Gemini · Voyage AI · FastEmbed) · pgvector · hybrid search + RRF · reranking · Cognee/Kuzu
+Backend     Python/FastAPI · Java/Spring Boot · TypeScript/Node · Postgres · SQL Server · Redis · Convex
+Frontend    React 19 · Next.js 16 · TypeScript · Tailwind · Motion · React Native · Kotlin Multiplatform
+Infra       Vercel · Netlify · Cloudflare · Coolify · Blaxel · Docker · GitHub Actions · Grafana/Prometheus/Loki
+Quality     Playwright · axe · Testcontainers · pytest · Vitest · contract & population-level tests
+Delivery    scrum · sprint planning · architecture/design reviews · PRD/TRD/ADR writing
 ```
 
 ---
@@ -58,6 +61,8 @@ Infra       Vercel · Railway · Cloudflare · Blaxel · Docker · GitHub Action
 
 | Project | What it does | Tech |
 |---|---|---|
+| [**Achyut Charters**](https://achyutcharters.com) · live | Private jet & helicopter charter site for a client — English, Hindi and Kannada with Gemini translation, staff admin for trips and empty-leg bookings. Playwright across 8 browser/viewport projects, axe on every route, Lighthouse 98–100 | Next.js 16, Convex, Tailwind 4, Motion |
+| **Laser Mosquito Defender** | Edge-vision home device on a Raspberry Pi 5 — fail-closed fire-decision gates, tested arming state machine, hardware interlock, YOLOv8 person/pet detection. ~1,190 tests; runs in shadow mode | Python, OpenCV, ONNX Runtime, ZeroMQ, C firmware |
 | [**NoteSync**](https://github.com/allands365-hub/notesync) | Auto-detect meetings, record, transcribe & summarise — local-first, search across every past meeting | Electron, Groq Whisper/LLaMA, SQLite FTS5 |
 | **Bill Karo** | GST-compliant invoicing for Indian MSMEs — WhatsApp reminders, mobile-first | React Native, Fastify, Neon, Drizzle |
 | [**BuildAi Arena**](https://25-hackathon.vercel.app) | Hackathon platform connecting sponsors and builders | Next.js, Supabase, Groq |
@@ -69,12 +74,25 @@ Infra       Vercel · Railway · Cloudflare · Blaxel · Docker · GitHub Action
 
 ## Experience
 
-**Edmik / Indivue (Kademin)** — AI Engineer · *Feb 2026 – Present*
-Own the AI layer of a production education platform (Spring Boot / SQL Server backend, four React
-frontends). AI feature-gating and permission system, token budgeting with cost-basis tracking,
-multi-provider model routing (Gemini 3 Flash → Kimi k2.5 fallback), and an LLM evaluation pipeline
-that grades handwritten student answers via OCR. Also deployed the Grafana MCP server on Blaxel so
-production metrics and logs are queryable over MCP. ~2,600 commits across 8 repos.
+**Edmik / Indivue (Kademin)** — AI Engineer → Engineering Lead · *Feb 2026 – Present*
+Lead a team of 5 engineers since April 2026 — scrum master, sprint planning, architecture and design —
+and own the AI layer of a production education platform (Spring Boot backend; React, Next.js,
+Android and Kotlin Multiplatform apps). ~7,700 commits across 15+ repos.
+
+- **Edmik Brain** — an AI onboarding agent that turns a school's spreadsheets, timetable images and
+  PDFs into a reviewable draft, committed through a ledger that can halt, resume and adopt; and
+  **Ask Kademin**, a permission-aware RAG assistant (pgvector + Postgres full-text, reciprocal-rank
+  fusion, access filtered in SQL) built into four apps in English and Hindi, rolling out to real users.
+- **ModelChain** — the single LLM path for all Brain code: JSON-schema output, Gemini → GPT-5.6 Luna →
+  Kimi fallback, retries, deadlines, and a test that fails if any configured model has no price.
+- **LLM cost control** — per-institute token budgets with holds reserved before every call and
+  exactly-once refunds; AI feature-gating where role is the gate.
+- **CA Practice OS** (pre-production) — multi-tenant SaaS for CA firms: two Gemini models read each
+  document independently with disagreements sent to human review, a model-selection eval harness that
+  tracks hallucinated values, and forced row-level security enforced by a catalog-reading test.
+- **Reliability** — led the SQL Server → PostgreSQL migration, proved by a result-diff harness
+  against the old engine; LLM grading of handwritten answers; Grafana MCP server on Blaxel so prod
+  metrics and logs are queryable over MCP.
 
 **Allan Travels** — Co-founder / Operator · *2017 – Present*
 Car rental business. Built and still run the booking and billing automation it operates on.
@@ -119,4 +137,4 @@ queryable over MCP.
 
 ---
 
-*Currently open to AI Engineer roles — agentic systems, retrieval, and applied LLM infrastructure.*
+*Open to senior AI-native full-stack and AI engineering roles — agents, retrieval, and LLM infrastructure.*
